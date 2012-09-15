@@ -5,7 +5,7 @@
   "version": "2.1.10-dev",
   "keywords": [ "form", "formwatcher", "validators", "unobtrusive" ],
   "dependencies": {
-    "formwatcher": "*",
+    "formwatcher": "*"
   },
   "development": {},
   "scripts": [
