@@ -1,5 +1,7 @@
 
 
+Formwatcher = require "Formwatcher"
+
 trim = (string) -> string.replace /^\s.*\s$/, ""
 
 
