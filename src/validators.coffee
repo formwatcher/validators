@@ -1,6 +1,9 @@
 
+# Dependencies
+Formwatcher = require "formwatcher"
+bonzo = require "bonzo"
 
-Formwatcher = require "Formwatcher"
+
 
 trim = (string) -> string.replace /^\s.*\s$/, ""
 
@@ -29,7 +32,8 @@ Formwatcher.validators.push class extends Formwatcher.Validator
   description: "Makes sure the value is not blank (nothing or spaces)."
   classNames: [ "required" ]
   validate: (value, input) ->
-    return "Can not be blank."  if (input.attr("type") is "checkbox" and not input.is(":checked")) or not trim value
+    binput = bonzo input
+    return "Can not be blank."  if (binput.attr("type") is "checkbox" and not binput.is(":checked")) or not trim value
     true
 
 
