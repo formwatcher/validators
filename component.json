@@ -1,0 +1,15 @@
+{
+  "name": "validators",
+  "repo": "formwatcher/validators",
+  "description": "Basic formwatcher validators",
+  "version": "2.1.10-dev",
+  "keywords": [ "form", "formwatcher", "validators", "unobtrusive" ],
+  "dependencies": {
+    "formwatcher": "*",
+  },
+  "development": {},
+  "scripts": [
+    "index.js",
+    "lib/validators.js"
+  ]
+}

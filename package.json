@@ -1,0 +1,38 @@
+{
+  "name": "formwatcher-validators",
+  "version": "2.1.10-dev",
+  "description": "Basic formwatcher validators.",
+  "homepage": "http://www.formwatcher.org",
+  "tags": [ "formwatcher" ],
+  "keywords": [ "form", "unobtrusive" ],
+  "maintainers": [
+    {
+      "name": "Matias Meno",
+      "email": "m@tias.me",
+      "web": "http://www.matiasmeno.com"
+    } 
+  ],
+  "contributors": [
+    {
+      "name": "Matias Meno",
+      "email": "m@tias.me",
+      "web": "http://www.matiasmeno.com"
+    } 
+  ],
+  "bugs": {
+    "mail": "m@tias.me"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT" 
+    } 
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/formwatcher/validators.git" 
+    }
+  ],
+  "dependencies": { },
+}
