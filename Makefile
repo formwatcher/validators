@@ -5,7 +5,10 @@ build: components index.js
 components:
 	@component install --dev
 
+test:
+	mocha
+
 clean:
 	rm -fr build components
 
-.PHONY: clean
+.PHONY: clean test
