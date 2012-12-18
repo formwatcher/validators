@@ -2,7 +2,7 @@
   "name": "validators",
   "repo": "formwatcher/validators",
   "description": "Basic formwatcher validators",
-  "version": "0.0.1-dev",
+  "version": "0.0.1",
   "keywords": [ "form", "formwatcher", "validators", "unobtrusive" ],
   "dependencies": {
     "formwatcher/formwatcher": "*",
