@@ -5,8 +5,8 @@ var Formwatcher = require("formwatcher"),
 
 // Now providing Formwatcher with all validators.
 
-Formwatcher.validators.push(require("./lib/integer")(Validator));
-Formwatcher.validators.push(require("./lib/float")(Validator));
-Formwatcher.validators.push(require("./lib/required")(Validator));
-Formwatcher.validators.push(require("./lib/not-zero-integer")(Validator));
-Formwatcher.validators.push(require("./lib/email")(Validator));
+Formwatcher.registerValidator(require("./lib/integer")(Validator));
+Formwatcher.registerValidator(require("./lib/float")(Validator));
+Formwatcher.registerValidator(require("./lib/required")(Validator));
+Formwatcher.registerValidator(require("./lib/not-zero-integer")(Validator));
+Formwatcher.registerValidator(require("./lib/email")(Validator));
