@@ -1,6 +1,6 @@
 {
   "name": "formwatcher-validators",
-  "version": "0.0.1",
+  "version": "0.0.2-dev",
   "description": "Basic formwatcher validators.",
   "homepage": "http://www.formwatcher.org",
   "tags": [ "formwatcher" ],
